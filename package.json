@@ -1,0 +1,23 @@
+{
+  "name": "recipes",
+  "version": "1.0.0",
+  "description": "it is a CRUD application for managing recipes.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LEE-DHARAN/recipes.git"
+  },
+  "keywords": [
+    "murali",
+    "dharan"
+  ],
+  "author": "murali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LEE-DHARAN/recipes/issues"
+  },
+  "homepage": "https://github.com/LEE-DHARAN/recipes#readme"
+}
