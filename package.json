@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/LEE-DHARAN/recipes/issues"
   },
-  "homepage": "https://github.com/LEE-DHARAN/recipes#readme"
+  "homepage": "https://github.com/LEE-DHARAN/recipes#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
 }
