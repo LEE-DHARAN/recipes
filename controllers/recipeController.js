@@ -2,9 +2,11 @@
 const Recipe = require("../models/recipeModel");
 
 
+
 const createRecipe = async (req, res) => {
   try {
-    const newRecipe = new Recipe(req.body);
+       const { title, ingredients, instructions } = req.body;
+       const newRecipe = new Recipe({ title, ingredients, instructions });
     await newRecipe.save();
     res
       .status(201)
